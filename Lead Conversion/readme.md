@@ -73,8 +73,3 @@ After running the notebook, you will obtain:
 ### Contributing
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-### Acknowledgments
-Special thanks to [Company Name] for providing the dataset and supporting this project.
