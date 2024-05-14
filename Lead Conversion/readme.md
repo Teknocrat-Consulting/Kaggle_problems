@@ -62,6 +62,43 @@ pip install -r requirements.txt
 - Execute the cells in the notebook sequentially to train the model, evaluate performance, and make predictions.
 - Follow the instructions and comments in the notebook for detailed guidance.
 
+## Lead Conversion Probability Analysis
+
+### Feature Importance:
+
+Based on our model, the following features contribute the most to the successful conversion of leads:
+
+1. **Tags_Lost to EINS**
+2. **Tags_Closed by Horizzon**
+3. **Tags_Will revert after reading the email**
+4. **Lead Source_Welingak Website**
+5. **What is your current occupation_Working Profes...**
+6. **Last Activity_SMS Sent**
+7. **What is your current occupation_Unemployed**
+
+And conversely, the following features indicate a decrease in lead conversion probability:
+
+1. **Tags_switched off**
+2. **Tags_Ringing**
+3. **Tags_Already a student**
+4. **Tags_Not doing further education**
+5. **Tags_Interested in full-time MBA**
+6. **Lead Quality_Worst**
+7. **Tags_Interested in other courses**
+8. **Tags_opp hangup**
+9. **Asymmetrique Activity Index_03.Low**
+
+### Sensitivity and Specificity:
+
+- By adjusting the probability threshold, we can manipulate the sensitivity and specificity of the model. 
+- Increasing the threshold increases specificity but decreases sensitivity, and vice versa.
+- High sensitivity ensures that almost all leads likely to convert are correctly predicted.
+- High specificity ensures that leads on the brink of conversion are accurately identified.
+
+These observations provide valuable insights into the factors influencing lead conversion and the trade-offs between sensitivity and specificity in model prediction.
+
+![Relative Importance of Features](relative_imp_feature.png)
+
 
 ### Results
 After running the notebook, you will obtain:
