@@ -3,7 +3,7 @@
 ## Overview
 ![Lead Conversion](lc.JPG)
 
-In today's competitive business environment, it's crucial for organizations to efficiently convert leads into customers. This project presents a predictive model designed to forecast the likelihood of lead conversion based on historical data and various lead attributes. By leveraging machine learning techniques, we aim to assist businesses in prioritizing leads, optimizing marketing strategies, and ultimately improving conversion rates.
+This project presents a predictive model designed to forecast the likelihood of lead conversion based on historical data and various lead attributes. By leveraging machine learning techniques, we aim to assist businesses in prioritizing leads, optimizing marketing strategies, and ultimately improving conversion rates.
 
 ## Key Features
 
