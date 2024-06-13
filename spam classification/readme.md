@@ -73,22 +73,22 @@ This project focuses on classifying emails as spam or not spam using machine lea
 It contains visual comparisons between a locally trained machine learning model and a pre-trained model from Hugging Face. Below are descriptions of the images provided:
 
 ## 1. Local Model Confusion Matrix
-![Local Model Confusion Matrix](local_model_confusion_matrix.png)
+![Local Model Confusion Matrix](images/local_model_confusion_matrix.png)
 
 This image depicts the confusion matrix of the locally trained model. The confusion matrix is a useful tool for understanding the performance of a classification model. It shows the counts of true positive, true negative, false positive, and false negative predictions made by the model.
 
 ## 2. Hugging Face Model Confusion Matrix
-![Hugging Face Model Confusion Matrix](Hugging_face_model_confusion_matrix.png)
+![Hugging Face Model Confusion Matrix](images/Hugging_face_model_confusion_matrix.png)
 
 This image displays the confusion matrix of the Hugging Face pre-trained model. Comparing this confusion matrix with the local model's matrix can provide insights into how each model performs across different classes or categories.
 
 ## 3. ROC Curve of the Local Model
-![ROC Curve of the Local Model](ROC_curve.png)
+![ROC Curve of the Local Model](images/ROC_curve.png)
 
 The ROC (Receiver Operating Characteristic) curve visualizes the performance of a binary classification model across various thresholds. It plots the true positive rate against the false positive rate. A steeper ROC curve indicates better performance.
 
 ## 4. Accuracy Comparison Table
-![Accuracy Comparison Table](model_table.JPG)
+![Accuracy Comparison Table](images/model_table.JPG)
 
 ## 4. Accuracy Comparison Table
 
